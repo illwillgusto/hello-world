@@ -26,3 +26,7 @@ class Message extends Component {
 }
 
 export default Message;
+
+// a state is an object that is privately maintained inside a component 
+// a state can influence what is rendered in the browser 
+// state can be changed within the component 
