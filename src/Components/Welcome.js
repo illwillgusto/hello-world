@@ -9,4 +9,9 @@ class Welcome extends Component {
 export default Welcome;
 
 /* Class Components 
+feature rich
+private date - state 
+complex UI logic
+private lifecycle hooks 
+Stateful/Smart/Container components 
 */
