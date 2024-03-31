@@ -15,4 +15,4 @@ should try to use the functional components as much as possible
 -the absence of 'this' keyword, it can be tricky at times
 -forced to think of a solution without using state, no complicated logic 
 -Mainly responsible for the UI
--Stateless/Dumb/ Presentational  */
+-State /Dumb/ Presentational  */
