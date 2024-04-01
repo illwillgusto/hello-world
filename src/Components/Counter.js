@@ -18,7 +18,7 @@ class Counter extends Component {
     increment() {
         this.setState({ // the setState helps avoid the issue above, allows you not to directly modify the state 
             count: this.state.count + 1
-        })
+        }, () => {console.log('Callback value', this.state.count)})
         console.log(this.state.count)
     }
 
