@@ -8,11 +8,13 @@ import Hello2 from './Components/Hello2';
 import Message from './Components/Message';
 import Counter from './Components/Counter';
 import FunctionClick from './Components/FunctionClick';
+import ClassClick from './Components/ClassClick';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
+        <ClassClick />
         <FunctionClick />
         {/* <Counter /> */}
         {/* <Greet name="Diana" heroName="Wonder Woman"/>  */}
