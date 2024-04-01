@@ -7,18 +7,20 @@ import Hello from './Components/Hello';
 import Hello2 from './Components/Hello2';
 import Message from './Components/Message';
 import Counter from './Components/Counter';
+import FunctionClick from './Components/FunctionClick';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
+        <FunctionClick />
         {/* <Counter /> */}
         {/* <Greet name="Diana" heroName="Wonder Woman"/>  */}
         {/* <Message /> */}
         {/* <Greet name="Bruce" heroName="Batman"> */}
           {/* <p>This is children props</p> */}
         {/* </Greet> */}
-        <Welcome name="Bruce" heroName="Batman" />
+        {/* <Welcome name="Bruce" heroName="Batman" /> */}
         {/* <Greet name="Clark" heroName="Superman">
           <button>Action</button>
         </Greet>
