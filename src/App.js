@@ -9,13 +9,15 @@ import Message from './Components/Message';
 import Counter from './Components/Counter';
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
+import EventBind from './Components/EventBind';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <ClassClick />
-        <FunctionClick />
+        <EventBind />
+        {/* <ClassClick />
+        <FunctionClick /> */}
         {/* <Counter /> */}
         {/* <Greet name="Diana" heroName="Wonder Woman"/>  */}
         {/* <Message /> */}
