@@ -6,12 +6,14 @@ import Welcome from '../src/Components/Welcome'
 import Hello from './Components/Hello';
 import Hello2 from './Components/Hello2';
 import Message from './Components/Message';
+import Counter from './Components/Counter';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Message />
+        <Counter />
+        {/* <Message /> */}
         {/* <Greet name="Bruce" heroName="Batman"> */}
           {/* <p>This is children props</p> */}
         {/* </Greet> */}
