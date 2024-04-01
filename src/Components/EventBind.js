@@ -8,6 +8,8 @@ class EventBind extends Component {
       this.state = {
          message: 'Wassup'
       }
+
+      this.clickHandler = this.clickHandler.bind(this) // binding in this approach is recommended 
     }
 
     clickHandler() {
@@ -21,10 +23,18 @@ class EventBind extends Component {
     return (
       <div>
         <div>{this.state.message}</div>
-        <button onClick={this.clickHandler.bind(this)}>Click</button> 
+        {/* <button onClick={this.clickHandler.bind(this)}>Click</button>  */}
+        {/* <button onClick={() => this.clickHandler()}>Click</button>  */}
+        <button onClick={this.clickHandler}>Click</button> 
       </div>
     )
   }
 }
 
 export default EventBind
+
+// approach 1 allows binding to be in the render method 
+// approach 2 is to use arrow functions in the render method
+// the function body is a single statement, the event handler is being called and returning that value 
+// this is why you see () after the event handler and are required  
+// approach 3, best approach, binding the event handler in the constructor 
