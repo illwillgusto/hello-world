@@ -4,17 +4,15 @@ import React from "react";
 //      return <h1>Hello Will</h1>   
 // }
 
-export const Greet = (props) => {
-    console.log(props);
+const Greet = ({name, heroName}) => { // adding the prop names here is destructing in the parameters 
     return (
         <div>
-            <h1>Hello {props.name} a.k.a {props.heroName}</h1> 
-            {props.children}
+            <h1>Hello {name} a.k.a {heroName}</h1> 
         </div>
     )
 }
 
-// export default Greet; // this allows you to import to another component but you can make this easier with a named export
+export default Greet // this allows you to import to another component but you can make this easier with a named export
 
 
 /*Functional Component 
