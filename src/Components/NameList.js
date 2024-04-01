@@ -36,3 +36,4 @@ function NameList() {
 
 export default NameList
 
+// this component is responsible for rendering the list to the Person component 

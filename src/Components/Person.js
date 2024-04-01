@@ -9,3 +9,6 @@ function Person({person}) {
 }
 
 export default Person
+
+
+// this component is responsible for rendering the person HTML
