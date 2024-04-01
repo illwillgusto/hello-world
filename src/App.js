@@ -13,15 +13,15 @@ class App extends Component {
     return (
       <div className='App'>
         {/* <Counter /> */}
-        <Greet name="Diana" heroName="Wonder Woman"/> 
+        {/* <Greet name="Diana" heroName="Wonder Woman"/>  */}
         {/* <Message /> */}
         {/* <Greet name="Bruce" heroName="Batman"> */}
           {/* <p>This is children props</p> */}
         {/* </Greet> */}
+        <Welcome name="Bruce" heroName="Batman" />
         {/* <Greet name="Clark" heroName="Superman">
           <button>Action</button>
         </Greet>
-        <Welcome name="Bruce" heroName="Batman" />
         <Welcome name="Clark" heroName="Superman" />
         <Welcome name="Diana" heroName="Wonder Woman" /> */}
         {/* <Hello /> */}

@@ -2,7 +2,9 @@ import React, { Component } from "react"; //import the component class from Reac
 
 class Welcome extends Component {
     render() {
-        return <h1>Welcome {this.props.name} a.k.a {this.props.heroName}</h1>
+        const {name, heroName} = this.props // syntax for destructing props in a class component 
+        // const {state1, state2} = this.state - destructing state properties syntax 
+        return <h1>Welcome {name} a.k.a {heroName}</h1>
     }
 }
 
