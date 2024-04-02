@@ -22,9 +22,9 @@ function NameList() {
             skill: 'Vue'
         }
     ]
-    const personList = person.map(person => (
-        <Person person={person}></Person>
-    ))
+    const personList = person.map(person => 
+        <Person key={person.id} person={person} />
+    )
   return (
     <div>
       {
@@ -37,3 +37,4 @@ function NameList() {
 export default NameList
 
 // this component is responsible for rendering the list to the Person component 
+// when creating list of elements keep in mind you have to have the key prop 
