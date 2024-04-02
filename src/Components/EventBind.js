@@ -6,7 +6,7 @@ class EventBind extends Component {
       super(props)
     
       this.state = {
-         message: 'Wassup'
+         message: 'Wassup' // this is a state property 
       }
 
     //   this.clickHandler = this.clickHandler.bind(this) // binding in this approach #3 is recommended 

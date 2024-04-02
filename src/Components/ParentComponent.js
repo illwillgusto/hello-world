@@ -27,3 +27,5 @@ class ParentComponent extends Component {
 }
 
 export default ParentComponent
+
+// parent component and child component gives an example of how you can pass methods as props in react components 
