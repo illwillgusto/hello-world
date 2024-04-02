@@ -38,3 +38,7 @@ export default NameList
 
 // this component is responsible for rendering the list to the Person component 
 // when creating list of elements keep in mind you have to have the key prop 
+// a "key" is a special string attribute you NEED to include when creating lists of elements 
+// keys give the elements a stable identity
+// Keys help React identify which items have changed, are added, or are removed 
+// Help in efficient update of the user interface 
