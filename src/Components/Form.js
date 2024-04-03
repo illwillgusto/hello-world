@@ -30,3 +30,10 @@ import React, { Component } from 'react'
 }
 
 export default Form
+
+
+// username is set as a state property 
+// which is applied as a value to the value attribute of the input element 
+// whenever there's a new change the new value is propagated to handleUsernameChange 
+// which sets back the state property to the updated value 
+// when the state is set the render method is called back to the new value 
