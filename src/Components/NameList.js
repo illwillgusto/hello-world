@@ -2,6 +2,7 @@ import React from 'react'
 import Person from './Person'
 
 function NameList() {
+  const names = ['Bruce', 'Clark', 'Diana', 'Bruce']
     const person = [
         {
             id: 1,
@@ -22,13 +23,13 @@ function NameList() {
             skill: 'Vue'
         }
     ]
-    const personList = person.map(person => 
-        <Person key={person.id} person={person} />
+    const NameList = names.map((name, index) => // () and index were added to the arrow function to solve the name duplicate error and the key prop will now be the index
+        <h2 key={index}>{index}. {name}</h2> // index is now the key prop because there are duplicate names 
     )
   return (
     <div>
       {
-        personList
+        NameList
       }
     </div>
   )
