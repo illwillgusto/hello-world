@@ -13,12 +13,14 @@ import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
 import UserGreeting from './Components/UserGreeting';
 import NameList from './Components/NameList';
+import Stylesheet from './Components/Stylesheet';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <NameList />
+        <Stylesheet primary= {true} />
+        {/* <NameList /> */}
         {/* <UserGreeting /> */}
         {/* <ParentComponent /> */}
         {/* <EventBind /> */}
