@@ -14,12 +14,14 @@ import ParentComponent from './Components/ParentComponent';
 import UserGreeting from './Components/UserGreeting';
 import NameList from './Components/NameList';
 import Stylesheet from './Components/Stylesheet';
+import Inline from './Components/Inline';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
         <Stylesheet primary= {true} />
+        <Inline />
         {/* <NameList /> */}
         {/* <UserGreeting /> */}
         {/* <ParentComponent /> */}
