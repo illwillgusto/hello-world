@@ -1,0 +1,6 @@
+.success {
+    color: green;
+}
+
+/* the benefit for modules eliminates conflicts, the variable has to be initialized before it can be used
+this prevents accidentally using a class that is defined for some other component  */

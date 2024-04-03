@@ -14,14 +14,16 @@ import ParentComponent from './Components/ParentComponent';
 import UserGreeting from './Components/UserGreeting';
 import NameList from './Components/NameList';
 import Stylesheet from './Components/Stylesheet';
-import Inline from './Components/Inline';
+import './Components/appStyles.css' // regular stylesheets being imported 
+import styles from './appStyles.module.css' // when importing module stylesheets, this module will only apply to this component 
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
         <Stylesheet primary= {true} />
-        <Inline />
+        <h1 className='error'>Error</h1>
+        <h1 className={styles.success}>Success</h1> {/* when styling from the module*/}
         {/* <NameList /> */}
         {/* <UserGreeting /> */}
         {/* <ParentComponent /> */}
