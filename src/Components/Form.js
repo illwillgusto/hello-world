@@ -6,7 +6,8 @@ import React, { Component } from 'react'
      
        this.state = {
           username: '',
-          comments: ''
+          comments: '',
+          topic: ""
        }
      }
 
@@ -22,6 +23,12 @@ import React, { Component } from 'react'
         })
      }
 
+     handleTopicChange = (event) => {
+        this.setState({
+            topic: event.target.value
+        })
+     }
+
   render() {
 
     
@@ -34,6 +41,14 @@ import React, { Component } from 'react'
         <div>
             <label>Comments</label> {/*Step 1*/}
             <textarea value={this.state.comments} onChange={this.handleCommentChange}></textarea>
+        </div>
+        <div>
+            <label>Topic</label>
+            <select value={this.state.topic} onChange={this.handleTopicChange}>
+                <option value="react">React</option>
+                <option value="angular">Angular</option>
+                <option value="vue">Vue</option>
+            </select>
         </div>
       </form>
     )
