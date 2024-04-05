@@ -12,9 +12,17 @@ used to initialize the state or binding the event handlers.
 call a special function which is super(props)
 the only place expected to change or set the state by directly overwriting this.state
 
-static getDerivedStateFromProps
-render()
-componentDidMount
+static getDerivedStateFromProps - when the state of the component depends on changes in props over time.
+set the state 
+
+render() - only required method in a class component. 
+read props & state and return JSX.
+Do not change state or interact with DOM or make ajax calls
+Children components lifecycle methods are also executed 
+
+componentDidMount - only called once 
+invoked immediately after a component and all its children components have been rendered to the DOM.
+cause side effects to load data 
 
 Updating phase has 5 methods;
 static getDerivedStateFromProps
