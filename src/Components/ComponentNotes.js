@@ -7,7 +7,11 @@ of an child component
 
 
 Mounting phase has 4 methods:
-constructor
+constructor(props) - a special function that will get called whenever a new component is created. 
+used to initialize the state or binding the event handlers.
+call a special function which is super(props)
+the only place expected to change or set the state by directly overwriting this.state
+
 static getDerivedStateFromProps
 render()
 componentDidMount
