@@ -35,7 +35,7 @@ import React, { Component } from 'react'
      }
 
   render() {
-    const {username, comments, topic} = this.state
+    const {username, comments, topic} = this.state //this allows us to not have this."prop" in the occurrences below 
     
     return (
       <form onSubmit={this.handleSubmit}>
