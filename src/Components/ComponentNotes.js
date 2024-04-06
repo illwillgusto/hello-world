@@ -37,7 +37,7 @@ NO SIDE EFFECTS
 render() - read props & state and return JSX. the JSX describes the UI.
 
 getSnapshotBeforeUpdate - previous props and previous state as its parameters. Called right before the changes from 
-the virtual DOM are to be reflected in the DOM. You could use this method Capture some information from the DO. 
+the virtual DOM are to be reflected in the DOM. You could use this method Capture some information from the DOM. 
 this method will either return 'null' or a value, that value will be passed as the 3rd parameter to the componentDidUpdate 
 method. 
 
