@@ -20,6 +20,10 @@ class LifecycleA extends Component {
         console.log('LifecycleA componentDidMount')
     }
     
+    shouldComponentUpdate() {
+      console.log('LifecycleA shouldComponentUpdate')
+    }
+    
   render() {
     console.log('LifecycleA render')
     return (
