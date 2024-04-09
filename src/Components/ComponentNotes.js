@@ -48,9 +48,14 @@ Ajax calls. before the call you have to compare the previous props with the new 
 the Ajax call or not.
 
 Unmounting phase has 1 method:
-componentWillUnmount
+componentWillUnmount - invoked immediately before a component is unmounted and destroyed.
+cleanup task can be performed like; cancelling any network requests, removing event handlers, cancelling 
+any subscriptions and also invalidating timers.
+Do not call the setState method.
 
-Error Handling has 2 methods:
-static getDerivedStateFromError
+Error Handling has 2 methods: (when there is an error either during rendering, in a lifecycle method, or in the constructor of 
+any child component)
+static getDerivedStateFromError - 
+
 componentDidCatch
  */
