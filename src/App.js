@@ -18,12 +18,13 @@ import './Components/appStyles.css' // regular stylesheets being imported
 import styles from './appStyles.module.css' // when importing module stylesheets, this module will only apply to this component 
 import Form from './Components/Form'
 import LifecycleA from './Components/LifecycleA';
+import FragmentDemo from './Components/FragmentDemo';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <LifecycleA />
+        <FragmentDemo />
 
 
 
@@ -32,7 +33,7 @@ class App extends Component {
 
 
 
-
+        {/* <LifecycleA /> */}
         {/* <Form /> */}
         {/* <Stylesheet primary= {true} />
         <h1 className='error'>Error</h1>
