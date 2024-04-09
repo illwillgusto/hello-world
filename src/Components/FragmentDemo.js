@@ -5,9 +5,13 @@ import React from 'react'
 
 function FragmentDemo() {
   return (
-    <div>
-        Fragment Demo
-    </div>
+    <React.Fragment> {/* this allows us to remove the extra node that appeared in the DOM, 
+    which could be seen in the browser's dev tools element section*/}
+        <h1>
+            Fragment Demo
+        </h1>
+        <p>This describes the fragment demo component</p>
+    </React.Fragment> 
   )
 }
 
