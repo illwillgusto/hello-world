@@ -21,6 +21,7 @@ class ParentComp extends Component {
     }
     
   render() {
+    console.log('****Parent Component Render****') // allow us to know when the render method is called in each of the components
     return (
       <div>
         Parent Component
