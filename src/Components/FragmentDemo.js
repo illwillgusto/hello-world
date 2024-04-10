@@ -1,5 +1,6 @@
 /*Fragments 
-Let you group a list of children elements without adding extra nodes to the DOM */
+-Let you group a list of children elements without adding extra nodes to the DOM
+-can accept the key attribute when rendering list of items  */
 
 import React from 'react'
 
@@ -16,3 +17,4 @@ function FragmentDemo() {
 }
 
 export default FragmentDemo
+
