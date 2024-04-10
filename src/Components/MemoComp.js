@@ -9,4 +9,4 @@ function MemoComp({name}) {
   )
 }
 
-export default React.memo(MemoComp)
+export default React.memo(MemoComp) // this a higher-order component 
