@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component, PureComponent } from 'react'
 import RegularComponent from './RegularComponent'
 import PureComp from './PureComponent'
 
-class ParentComp extends Component {
+class ParentComp extends PureComponent {
 
     constructor(props) {
       super(props)
@@ -33,3 +33,6 @@ class ParentComp extends Component {
 }
 
 export default ParentComp
+
+//changed this component to a pure component
+// note this is the parent component and pure components only re-render on change, so the child component won't re-render 
