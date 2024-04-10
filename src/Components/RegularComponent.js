@@ -12,3 +12,6 @@ class RegularComponent extends Component {
 }
 
 export default RegularComponent
+
+/*a regular component does not implement the 
+shouldComponentUpdate method. It always returns true by default  */

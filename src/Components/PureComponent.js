@@ -12,3 +12,9 @@ class PureComp extends PureComponent {
 }
 
 export default PureComp
+
+
+/*a pure component implements shouldComponentUpdate method with 
+a shallow props and state comparison 
+
+*/
