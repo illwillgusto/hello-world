@@ -27,13 +27,13 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <ParentComp />
 
 
 
 
 
 
+        {/* <ParentComp /> */}
         {/* <Table></Table> */}
         {/* <FragmentDemo /> */}
         {/* <LifecycleA /> */}
