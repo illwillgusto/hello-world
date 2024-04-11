@@ -7,11 +7,15 @@ class Input extends Component {
     
       this.inputRef = React.createRef()
     }
+
+    focusInput() {
+        this.inputRef.current.focus()
+    } //this method will focus on the input element, allows us not to use to the componentDidMount method 
     
   render() {
     return (
       <div>
-        <input type='text' />
+        <input type='text' ref={this.inputRef} />
       </div>
     )
   }
