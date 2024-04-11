@@ -10,3 +10,5 @@ function MemoComp({name}) {
 }
 
 export default React.memo(MemoComp) // this a higher-order component 
+
+// React.memo avoids the re-rendering of the memo component on the parent component if the name prop state doesn't change 
