@@ -14,8 +14,8 @@ import React, { Component } from 'react'
   render() {
     return (
       <div>
-        <input type='text' ref={this.inputRef}/>
-
+        <input type='text' ref={this.inputRef}/><br/>
+        <button onClick={this.clickHandler}>Click</button>
       </div>
     )
   }
