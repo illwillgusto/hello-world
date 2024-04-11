@@ -10,6 +10,10 @@ import React, { Component } from 'react'
         this.inputRef.current.focus()
         console.log(this.inputRef)
     }
+
+    clickHandler = () => {
+        alert(this.inputRef.current.value)
+    } //this is allow you to fetch the data of the value entered into the input element 
     
   render() {
     return (
