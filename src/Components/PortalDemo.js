@@ -2,9 +2,9 @@ import React from 'react'
 
 function PortalDemo() {
   return (
-    <div>
+    <h1>
       Portal's Demo
-    </div>
+    </h1>
   )
 }
 
