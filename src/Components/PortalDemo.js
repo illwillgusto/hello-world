@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import ReactDOM from 'react-dom'; //this will allow us to move this component to the Portal element in index.html
 
 function PortalDemo() {
-  return (
+  return ReactDOM.createPortal( //this will move the the component to the element of choice 
     <h1>
       Portal's Demo
-    </h1>
+    </h1>,
+    document.getElementById('portal-root') //this will move the the component to the element of choice 
   )
 }
 
