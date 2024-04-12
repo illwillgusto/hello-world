@@ -24,16 +24,17 @@ import PureComponent from './Components/PureComponent';
 import ParentComp from './Components/ParentComp';
 import RefsDemo from './Components/RefsDemo';
 import FocusInput from './Components/FocusInput';
+import FRParentInput from './Components/FRParentInput';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <FocusInput />
+        <FRParentInput />
 
 
 
-
+        {/* <FocusInput /> */}
         {/* <RefsDemo /> */}
         {/* <ParentComp /> */}
         {/* <Table></Table> */}
