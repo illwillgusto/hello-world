@@ -26,6 +26,7 @@ import RefsDemo from './Components/RefsDemo';
 import FocusInput from './Components/FocusInput';
 import FRParentInput from './Components/FRParentInput';
 import PortalDemo from './Components/PortalDemo';
+import Hero from './Components/Hero';
 
 class App extends Component {
   render() {
