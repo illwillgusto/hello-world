@@ -34,6 +34,7 @@ class App extends Component {
       <div className='App'>
         <Hero heroName="Goku" />
         <Hero heroName="Vegeta" />
+        <Hero heroName="Joker" />
 
 
 
