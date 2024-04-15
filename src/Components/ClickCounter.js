@@ -8,6 +8,12 @@ class ClickCounter extends Component {
          count: 0
       }
     }
+
+    incrementCount = () => {
+        this.setState( prevState => {
+            return { count: prevState.count + 1 }
+        })
+    }
     
   render() {
     return (
