@@ -17,7 +17,7 @@ class ClickCounter extends Component {
     
   render() {
     const { count } = this.state
-     return  <button onClick={this.incrementCount}>Clicked X Times</button>
+     return  <button onClick={this.incrementCount}>Clicked { count } Times</button>
   }
 }
 
