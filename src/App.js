@@ -33,7 +33,15 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <ErrorBoundary>
+       
+       
+       
+       
+       
+       
+       
+       
+        {/* <ErrorBoundary>
         <Hero heroName="Goku" />
         </ErrorBoundary>
         <ErrorBoundary>
@@ -41,12 +49,7 @@ class App extends Component {
         </ErrorBoundary>
         <ErrorBoundary>
         <Hero heroName="Joker" />
-        </ErrorBoundary>
-
-
-
-
-
+        </ErrorBoundary> */}
         {/* <PortalDemo /> */}
         {/* <FRParentInput /> */}
         {/* <FocusInput /> */}
