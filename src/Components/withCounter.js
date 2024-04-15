@@ -16,7 +16,7 @@ const withCounter = (OriginalComponent) => {
               })
           }
         render() {
-            return <OriginalComponent name='Will' />
+            return <OriginalComponent count={this.state.count} incrementCount={this.incrementCount} />
         }
     }
     return NewComponent
