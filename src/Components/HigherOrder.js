@@ -5,5 +5,5 @@ example syntax - const NewComponent = higherOrderComponent(originalComponent)
 -HOC adds additional data or functionality to the original component, so the new component can also be referred to as
 enhanced component.
 example - const IronMan = withSuit(TonyStark);
-
+-reuse code instead of duplicating it 
  */
