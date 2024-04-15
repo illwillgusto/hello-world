@@ -6,4 +6,11 @@ example syntax - const NewComponent = higherOrderComponent(originalComponent)
 enhanced component.
 example - const IronMan = withSuit(TonyStark);
 -reuse code instead of duplicating it 
+-maintaining the state 
+
+Passing down props 
+-the spread operator is used 
+
+Passing parameters
+-
  */
