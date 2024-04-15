@@ -4,8 +4,9 @@ import withCounter from './withCounter'
 class HoverCounter extends Component {
  
   render() {
-    const {count} = this.state
-    return <h2 onMouseOver={this.incrementCount}>{this.props.name} Hover { count } Times</h2>
+   
+    const { count, incrementCount } = this.props
+    return <h2 onMouseOver={incrementCount}>Hover { count } Times</h2>
   }
 }
 
